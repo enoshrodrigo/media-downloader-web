@@ -1,0 +1,13 @@
+# This file is used for configuring server settings, such as URL rewriting and access control.
+
+RewriteEngine On
+RewriteBase /media-downloader/
+
+# Redirect Trailing Slashes...
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ /$1 [L,R=301]
+
+# Handle Front Controller...
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]

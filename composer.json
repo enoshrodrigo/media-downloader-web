@@ -1,0 +1,23 @@
+{
+    "name": "media-downloader",
+    "description": "A single-page application for downloading videos and music.",
+    "type": "project",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Includes\\": "includes/",
+            "Api\\": "api/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
