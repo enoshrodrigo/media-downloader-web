@@ -22,7 +22,8 @@ A next-level, premium, responsive, and visually stunning PHP media browser and d
 
 ## 🖥️ Demo
 
-![MediaFlow Screenshot]()
+![MediaFlow Screenshot](https://github.com/user-attachments/assets/c2efaf5d-fae0-4575-867c-28bf04b337a4)
+
 
 ---
 
@@ -111,4 +112,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 📬 Contact
 
-For support or feedback, open an issue or contact [your-email@example.com](mailto:your-email@example.com)
+For support or feedback, open an issue or contact [enoshrodrigo930@gmail.com](mailto:enoshrodrigo930@gmail.com)
