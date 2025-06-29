@@ -313,7 +313,7 @@ $darkMode = isset($_COOKIE['darkMode']) ? $_COOKIE['darkMode'] === 'true' : true
                             <div class="absolute top-10 left-20 w-20 h-20 bg-pink-500/30 dark:bg-pink-500/50 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
                             
                             <div class="relative z-10 bg-white dark:bg-slate-800/50 shadow-2xl rounded-2xl p-2 backdrop-blur-sm">
-                                <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG11c2ljJTIwc3R1ZGlvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" 
+                                <img src="./assets/images/media-illustration.png" 
                                      alt="Media Illustration" 
                                      class="rounded-xl shadow-lg w-full floating" />
                                      
