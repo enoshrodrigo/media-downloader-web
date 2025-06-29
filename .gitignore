@@ -22,7 +22,6 @@ Thumbs.db
 
 # Ignore environment/config files
 .env
-.env.*
 
 # Ignore node_modules if present
 node_modules/

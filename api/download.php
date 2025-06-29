@@ -1,12 +1,12 @@
 <?php
-// filepath: /media-downloader/media-downloader/api/download.php
+ 
 
 require_once '../includes/config.php';
 require_once '../includes/DownloadProcessor.php';
 
 if (isset($_GET['file'])) {
     $file = basename($_GET['file']);
-    $downloadProcessor = new DownloadProcessor();
+    $downloadProcessor = new DownloadProcessor($config);
 
     if ($downloadProcessor->isValidFile($file)) {
         $downloadProcessor->downloadFile($file);
